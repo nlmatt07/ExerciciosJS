@@ -19,9 +19,6 @@ function logRequests(request, response, next) {
      
 }
 
-app.time(logRequests);
-
-
 app.get('/projects', (request, response) => {
 
     const {title} = request.query;
